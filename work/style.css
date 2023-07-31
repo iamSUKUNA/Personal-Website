@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&family=Poppins:ital@0;1&family=Roboto&family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+body,
+html {
+  width: 100%;
+}
+#cursorCircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  z-index: 99999;
+  border-radius: 50%;
+  background-color: #fff;
+}
+#main {
+  width: 100%;
+  background-color: #000;
+}
+#landing-page {
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+#nav {
+  font-family: 'Ubuntu', sans-serif;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: #fff;
+}
+#nav > a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+#nav > h4 {
+  letter-spacing: 2px;
+}
+/* ------------------------------------------------------------- */
+.animationBox {
+  overflow: hidden;
+  width: fit-content;
+  /* background-color: red; */
+}
+.animationBox .animatingElem {
+  transform: translateY(100%);
+}
+.animationBox .h1Tag {
+  transform: translateY(100%);
+}
+.animationBox .h5Tag {
+  transform: translateY(100%);
+}
+.animationBox .animatingElem2 {
+  transform: translateY(100%);
+}
+/* ---------------------------------------------------------------- */
+#heading {
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+#heading h1 {
+  font-size: 9vw;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: rgb(187, 187, 187);
+  line-height: 1;
+  opacity: 0.8;
+}
+.h1Tag {
+  margin-left: 10.5vw;
+}
+.h5Tag {
+  font-size: 0.8vw;
+  margin-left: 48vw;
+  letter-spacing: 2px;
+}
+#chotiHeadings {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  font-size: 1vw;
+  margin-top: 24vh;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: right;
+  margin-right: 0.5vw;
+  padding-right: 2vw;
+  letter-spacing: 2px;
+}
+#chotiHeadings > h4 {
+  margin-top: 0.5vw;
+}
+#footer {
+  padding: 0 2vw;
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#iconset {
+  display: flex;
+  color: #fff;
+  gap: 5px;
+}
+#footer > a {
+  color: #fff;
+  text-decoration: none;
+}
+#footer #circle {
+  width: 20px;
+  height: 20px;
+  background-color: #888;
+  border-radius: 50%;
+}
+#secondPage {
+  letter-spacing: 2px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  padding-right: 10vw;
+  padding-left: 5vw;
+  padding-top: 17vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+#secondPage .elem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 1px solid #888;
+}
+.elem h1 {
+  margin: 7vh 0;
+  font-size: 3.5vw;
+  opacity: 0.7;
+  padding-left: 3vw;
+}
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+.elemYear {
+  padding-right: 2vw;
+}
+.elem img {
+  height: 150%;
+  position: absolute;
+  z-index: 999;
+}
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4vw;
+  padding: 10vw 5vw;
+  padding-left: 40vw;
+  width: 100%;
+  background-color: #000;
+}
+#about img {
+  width: 200px;
+}
+#textAbout {
+  width: 40rem;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+}
+#textAbout > a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  cursor: pointer;
+  padding: 12px 22px;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  font-size: 12px;
+}
+#textAbout > h5 {
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+#textAbout > p {
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+#subscribe {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 20px 30px;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 2px;
+  padding-bottom: 8vw;
+}
+#subscribe > h5 {
+  opacity: 0.6;
+  letter-spacing: 2px;
+}
+#subscribe > h3 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+#footer2 {
+  background-color: #000;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+  letter-spacing: 2px;
+}
+#footerLeft {
+  font-size: 14px;
+  color: #fff;
+  gap: 20px;
+  display: flex;
+}
+#footerRight {
+  color: #fff;
+  display: flex;
+  gap: 20px;
+}
+#footerRight > a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
